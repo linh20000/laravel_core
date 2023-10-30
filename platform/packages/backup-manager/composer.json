@@ -1,0 +1,23 @@
+{
+    "name": "tungnt/backup-manager",
+    "autoload": {
+        "psr-4": {
+            "Tungnt\\BackupManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tungnt"
+        }
+    ],
+    "require": {
+        "spatie/laravel-backup": "^8.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tungnt\\BackupManager\\Providers\\BackupServiceProvider"
+            ]
+        }
+    }
+}
